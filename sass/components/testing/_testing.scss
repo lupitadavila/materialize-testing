@@ -1,0 +1,14 @@
+// Button overrides
+$primary-color: red;
+$button-raised-background: red;
+$button-raised-background-hover: #333;
+$link-color: color("light-blue", "darken-1");
+$link-color-hover: color("light-blue", "darken-3");
+$card-bg-color: #cacaca;
+$card-link-color: $link-color;
+$card-link-color-light: red;
+
+// Links
+a:hover{
+  color: $link-color-hover;
+}
